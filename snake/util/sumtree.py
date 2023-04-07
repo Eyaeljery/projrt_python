@@ -71,3 +71,6 @@ class SumTree:
 
     def leaves(self):
         return self._tree[-self._capacity:]
+print("eya kahba")
+print("mina el bniiina")
+print("yaateha aasba el aasba ")
