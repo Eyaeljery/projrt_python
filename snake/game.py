@@ -262,5 +262,9 @@ class Game:
         self._log_file.write("\n")
 #yassmine bhima
 #eya tfatak 
+
+
+
 print("yaatek aasba ya yassmine")
 print("ayouta ya bnina mouahhhhhhhhhhhhhhhh") 
+print("yassmine msatka")
