@@ -68,9 +68,8 @@ class SumTree:
 
     def min_leaf(self):
         return np.min(self.leaves())
-
+#ahawa changement
     def leaves(self):
         return self._tree[-self._capacity:]
 print("eya kahba")
 print("mina el bniiina")
-print("yaateha aasba el aasba ")
