@@ -94,3 +94,6 @@ print("salutt")
 
 print("eya kahba")
 print("mina el bniiina")
+
+print("ahla wa sahla")
+print("hiiiiiiiiiiiiiiiiiiiiii")
