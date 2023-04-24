@@ -102,3 +102,6 @@ print("hiiiiiiiiiiiiiiiiiiiiii")
 
 print ("byeee")
 print("eerfjerhgierge")
+
+print ("jifpjfre")
+print("ftrgrrfgr")
