@@ -97,3 +97,8 @@ print("mina el bniiina")
 
 print("ahla wa sahla")
 print("hiiiiiiiiiiiiiiiiiiiiii")
+
+
+
+print ("byeee")
+print("eerfjerhgierge")
