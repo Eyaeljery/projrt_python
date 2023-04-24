@@ -71,5 +71,26 @@ class SumTree:
 #ahawa changement
     def leaves(self):
         return self._tree[-self._capacity:]
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#abcde
+
+print("salutt")
+
+
 print("eya kahba")
 print("mina el bniiina")
