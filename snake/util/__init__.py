@@ -2,3 +2,4 @@
 # -*- coding: utf-8 -*-
 
 """Snake utils package."""
+print("hi")
