@@ -260,11 +260,3 @@ class Game:
         self._log_file.write("[ last/next direc: %s/%s ]\n" % \
                               (self._snake.direc, self._snake.direc_next))
         self._log_file.write("\n")
-#yassmine bhima
-#eya tfatak 
-
-
-
-print("yaatek aasba ya yassmine")
-print("ayouta ya bnina mouahhhhhhhhhhhhhhhh") 
-print("yassmine msatka")

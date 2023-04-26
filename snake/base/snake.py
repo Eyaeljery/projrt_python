@@ -190,3 +190,4 @@ class Snake:
              (self._direc == Direc.UP and self._direc_next == Direc.LEFT):
             old_head_type = PointType.BODY_DL
         return old_head_type, new_head_type
+    print("hello word")
