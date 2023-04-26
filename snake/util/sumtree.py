@@ -70,4 +70,5 @@ class SumTree:
         return np.min(self.leaves())
 
     def leaves(self):
-      return self._tree[-self._capacity:]
+        return self._tree[-self._capacity:]
+    print("snake")
