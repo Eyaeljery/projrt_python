@@ -212,3 +212,4 @@ class GameWindow(tk.Tk):
             self._canvas.create_rectangle(x + self._dx1, y,
                                           x + self._dx2, y + self._grid_height,
                                           fill=self._conf.color_body, outline='')
+            print("commit")
