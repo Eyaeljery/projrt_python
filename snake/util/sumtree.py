@@ -73,3 +73,4 @@ class SumTree:
         return self._tree[-self._capacity:]
     print("snake")
     print("hi hi hi hi hi")
+    print("bye")
