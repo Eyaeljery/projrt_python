@@ -260,4 +260,3 @@ class Game:
         self._log_file.write("[ last/next direc: %s/%s ]\n" % \
                               (self._snake.direc, self._snake.direc_next))
         self._log_file.write("\n")
-        print("helloooo")
