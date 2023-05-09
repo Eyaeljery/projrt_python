@@ -169,3 +169,4 @@ class PathSolver(BaseSolver):
 
     def _is_valid(self, pos):
         return self.map.is_safe(pos) and not self._table[pos.x][pos.y].visit
+    print("hiiii")
