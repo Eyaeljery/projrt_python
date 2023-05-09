@@ -172,3 +172,4 @@ class History:
                      xy=(x_max_avg, y_max_avg), xytext=(-50, 20),
                      textcoords="offset points",
                      arrowprops=dict(facecolor="black", arrowstyle="->"))
+        print("hiiiii")
