@@ -11,6 +11,7 @@ class GreedySolver(BaseSolver):
 
     def __init__(self, snake):
         super().__init__(snake)
+        print("hello")
         self._path_solver = PathSolver(snake)
 
     def next_direc(self):
