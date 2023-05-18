@@ -48,6 +48,10 @@ class Pos:
 
     @staticmethod
     def manhattan_dist(p1, p2):
+        print("salut")
+        print("ca va ")
+        print("bonjour")
+        print("byeeee")
         return abs(p1.x - p2.x) + abs(p1.y - p2.y)
 
     def direc_to(self, adj_pos):
