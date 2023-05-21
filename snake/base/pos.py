@@ -37,6 +37,9 @@ class Pos:
         if isinstance(self, other.__class__):
             return Pos(self._x + other.x, self._y + other.y)
         return NotImplemented
+    print("bonjour")
+    print("saalut")
+    print("test")
 
     def __sub__(self, other):
         if isinstance(self, other.__class__):
@@ -48,10 +51,6 @@ class Pos:
 
     @staticmethod
     def manhattan_dist(p1, p2):
-        print("salut")
-        print("ca va ")
-        print("bonjour")
-        print("byeeee")
         return abs(p1.x - p2.x) + abs(p1.y - p2.y)
 
     def direc_to(self, adj_pos):

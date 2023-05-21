@@ -37,11 +37,3 @@ class Point:
     @type.setter
     def type(self, val):
         self._type = val
-        print("rgjpzejzof")
-
-
-
-
-
-
-        print("salut")
