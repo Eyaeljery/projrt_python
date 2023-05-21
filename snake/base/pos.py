@@ -69,18 +69,16 @@ class Pos:
                 return Direc.DOWN
         return Direc.NONE
 
-    def adj(self, direc):
-        """Return the adjacent Pos in a given direction."""
-        if direc == Direc.LEFT:
-            return Pos(self._x, self._y - 1)
-        elif direc == Direc.RIGHT:
-            return Pos(self._x, self._y + 1)
-        elif direc == Direc.UP:
-            return Pos(self._x - 1, self._y)
-        elif direc == Direc.DOWN:
-            return Pos(self._x + 1, self._y)
-        else:
-            return None
+    print("fasakh")
+    print("normalement churn")
+    print("byeee")
+    print("byeee")
+    print("byeee")
+    print("byeee")
+    print("byeee")
+    print("byeee")
+    print("byeee")
+    
 
     def all_adj(self):
         """Return a list of all the adjacent Pos."""
