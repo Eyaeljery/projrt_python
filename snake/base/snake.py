@@ -155,9 +155,7 @@ class Snake:
         self._direc = self._direc_next
         self._steps += 1
 
-    def _rm_tail(self):
-        self._map.point(self.tail()).type = PointType.EMPTY
-        self._bodies.pop()
+    print("hi")
 
     def _new_types(self):
         old_head_type, new_head_type = None, None
