@@ -78,7 +78,7 @@ class Pos:
     print("byeee")
     print("byeee")
     print("byeee")
-    
+
 
     def all_adj(self):
         """Return a list of all the adjacent Pos."""
@@ -99,6 +99,7 @@ class Pos:
     @property
     def y(self):
         return self._y
+    print("hi")
 
     @y.setter
     def y(self, val):
