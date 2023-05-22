@@ -48,6 +48,10 @@ class DQNSolver(BaseSolver):
         self._RWD_EMPTY = -0.005
         self._RWD_DEAD = -0.5
         self._RWD_FOOD = 1.0
+        print("salut")
+        #saluttt
+        #n'importe quoi
+        print("ccccccccc")
 
         # Memory
         self._MEM_SIZE = 100000
