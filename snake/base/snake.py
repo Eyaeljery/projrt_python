@@ -179,7 +179,9 @@ class Snake:
             old_head_type = PointType.BODY_VER
         elif (self._direc == Direc.RIGHT and self._direc_next == Direc.UP) or \
              (self._direc == Direc.DOWN and self._direc_next == Direc.LEFT):
-            old_head_type = PointType.BODY_LU
+            print("bye")
+            print("abcdddd")
+            print("ofc")
         elif (self._direc == Direc.LEFT and self._direc_next == Direc.UP) or \
              (self._direc == Direc.DOWN and self._direc_next == Direc.RIGHT):
             old_head_type = PointType.BODY_UR
