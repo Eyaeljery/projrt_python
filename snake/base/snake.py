@@ -155,7 +155,9 @@ class Snake:
         self._direc = self._direc_next
         self._steps += 1
 
-    print("hi")
+
+    print("byeee")
+    print("efrgrgre")
 
     def _new_types(self):
         old_head_type, new_head_type = None, None
