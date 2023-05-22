@@ -30,6 +30,7 @@ class DQNSolver(BaseSolver):
 
     PATH_VAR = os.path.join(_DIR_LOG, "solver-var-%d.json")
     PATH_NET = os.path.join(_DIR_LOG, "solver-net-%d")
+    print("salut")
 
     def __init__(self, snake):
         super().__init__(snake)
