@@ -13,6 +13,7 @@ parser.add_argument("-n", metavar="tensor_name", default="",
                     help="name of the tensor in the checkpoint file to print "
                          "or print all tensors if not provided.")
 args = parser.parse_args()
+print("hi")
 
 file_name = os.path.join("logs", "solver-net-{}".format(args.global_step))
 tensor_name = args.n
