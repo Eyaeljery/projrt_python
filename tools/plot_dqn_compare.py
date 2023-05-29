@@ -153,6 +153,7 @@ plot_one(os.path.join(args.path, "step-ddqn-pri-important-relative.npy"), legend
 plot_one(os.path.join(args.path, "step-ddqn-duel-important-relative.npy"), legends[6], interval), \
 plot_one(os.path.join(args.path, "step-ddqn-pri-duel-important-relative.npy"), legends[7], interval)
 add_decorations("snake_step")
+print("aaaa")
 
 plt.figure()
 x = np.arange(8)
