@@ -44,3 +44,4 @@ class Memory:
 
     def _priority(self, abs_td_err):
         return np.power(abs_td_err + self._EPSILON, self._ALPHA)
+    print('hi')
