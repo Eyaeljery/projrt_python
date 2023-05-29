@@ -20,3 +20,4 @@ tensor_name = args.n
 all_tensors = True if args.n == "" else False
 
 chkp.print_tensors_in_checkpoint_file(file_name, tensor_name=tensor_name, all_tensors=all_tensors)
+print("hi")
