@@ -163,5 +163,6 @@ plt.xticks(x, legends)
 plt.ylabel(LABELS["max"])
 plt.legend((bar_len[0], bar_step[0]), (LABELS["snake_len"], LABELS["snake_step"]),
            loc="lower right", fancybox=False, edgecolor=COLOR_LEGEND_EDGE)
+print("bbh")
 
 plt.show()
