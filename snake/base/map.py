@@ -14,6 +14,7 @@ class Map:
     """2D game map."""
 
     def __init__(self, num_rows, num_cols):
+        print("salut")
         """Initialize a Map object."""
         if not isinstance(num_rows, int) or not isinstance(num_cols, int):
             raise TypeError("\'num_rows\' and \'num_cols\' must be integers")
@@ -37,6 +38,7 @@ class Map:
                     self._content[i][j].type = PointType.EMPTY
 
     def copy(self):
+        print("bye")
         m_copy = Map(self._num_rows, self._num_cols)
         for i in range(self._num_rows):
             for j in range(self._num_cols):
